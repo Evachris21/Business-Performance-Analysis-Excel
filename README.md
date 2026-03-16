@@ -1,147 +1,48 @@
-# Business-Performance-Analysis-Excel
-A data-driven study on improving profitability and customer inflow for a beauty and tailoring business using Excel.
+# Business Performance Analysis: Beauty & Tailoring Sector
+**Optimizing Profitability and Customer Retention through Data-Driven Insights**
 
-## Project Overview
+## 📌 Project Overview
+This project involves a comprehensive analysis of a women-led service business providing beauty and tailoring services. Using 12 months of transactional data, I identified key operational inefficiencies, including revenue leakage due to unstandardized bargaining and stagnation in new customer acquisition.
 
-This project analyzes the performance of a small service-based beauty and tailoring business. The main objective was to identify key business issues affecting profitability and customer growth using transaction data collected over several months.
+### 🎯 Key Objectives:
+- Identify "High-Value" services using **ABC Analysis**.
+- Quantify revenue loss caused by customer bargaining.
+- Analyze customer behavior (New vs. Repeat) to improve retention strategies.
 
-The analysis focuses on understanding revenue patterns, customer behavior, and pricing challenges that impact the business's overall financial performance.
+## 🛠️ Tech Stack & Skills
+- **Tool:** Microsoft Excel (Advanced)
+- **Techniques:** Data Cleaning, VLOOKUP/XLOOKUP, Descriptive Statistics, ABC Analysis (80/20 Rule), Data Visualization.
 
----
+## 📂 Dataset Breakdown
+The analysis was performed on four key data stages (available in this repo):
+1. **Raw Data:** 527+ service records (July 2024 - June 2025).
+2. **Price List:** Reference data for minimum/maximum service margins.
+3. **Cleaned Data:** Transformed data with calculated columns for 'Pricing Behavior' and 'Revenue Loss'.
+4. **Business Statistics:** Final summary of KPIs and service-wise segmentation.
 
-## Business Problem
+## 📊 Key Findings & Insights
 
-The business was facing three major operational challenges:
+### 1. Revenue Leakage (The Bargaining Problem)
+By comparing the `AMOUNT_PAID` against the `Price_List`, I identified that a significant portion of transactions fell **"Below Min"**.
+- **Insight:** Services like Eyebrow Threading and Hair Coloring had the highest frequency of bargaining.
+- **Impact:** Total revenue loss exceeded **₹32,000** due to lack of a fixed pricing policy.
 
-* Low profitability despite regular service demand
-* Lack of new customer inflow
-* Revenue loss due to frequent customer bargaining
+### 2. ABC Analysis (80/20 Rule)
+I categorized services based on their contribution to total revenue (₹2,14,780):
+- **Category A:** Top services like *Hair Coloring* and *Aari Blouse* work contributed to ~70% of total revenue.
+- **Observation:** Tailoring (introduced in Feb 2025) quickly became a high-value driver through Aari work.
 
-This project aims to analyze business transaction data to identify patterns and provide data-driven recommendations to improve business performance.
+### 3. Customer Acquisition Gap
+- **Repeat Customers:** 76% of revenue comes from loyal, repeat clients.
+- **The Issue:** New customer inflow for high-margin services (Facials/Bridal) is low, indicating a need for "Lead Magnet" pricing.
 
----
-
-## Dataset Information
-
-The dataset contains service transaction records with the following fields:
-
-* Date – Date of the service transaction
-* Service – Type of service provided
-* Category – Beauty or Tailoring
-* Amount Paid – Revenue received from the service
-* Customer Type – New or Repeat customer
-
-### Data Period
-
-* Beauty Services: July 2024 – June 2025
-* Tailoring Services: February 2025 – June 2025
-
-A sample dataset is included in this repository to demonstrate the structure of the data.
-
----
-
-## Tools and Technologies
-
-The analysis was conducted using:
-
-* Microsoft Excel
-* Data Cleaning Techniques
-* Pivot Tables
-* Descriptive Statistics
-* Pareto Analysis
-* Data Visualization
+## 💡 Actionable Recommendations
+Based on the data, I proposed:
+1. **Fixed Price Policy:** Implement a "Minimum Price" board for the top 10 most bargained services to protect margins.
+2. **Combo Packages:** Instead of discounting, offer "Value Bundles" (e.g., Facial + Bleach + Threading) to maintain the Average Order Value (AOV).
+3. **Referral Program:** Leverage the strong "Repeat Customer" base to bring in new clients through a loyalty-based discount.
 
 ---
+**Author:** Evangeline Christina  
+**Academic Background:** IIT Madras (Diploma in Data Science)  
 
-## Data Preparation
-
-Before conducting the analysis, the dataset was cleaned and structured to ensure accuracy.
-
-The following data preparation steps were performed:
-
-* Removed duplicate records
-* Standardized service names
-* Organized data into structured columns
-* Verified pricing information using the service price list
-
-This preparation ensured reliable calculations and accurate insights.
-
----
-
-## Exploratory Data Analysis
-
-### Revenue Distribution Analysis
-
-Revenue generated by each service was analyzed to understand which services contributed most to overall business income.
-
-### Monthly Revenue Trend
-
-Monthly revenue patterns were studied to observe fluctuations and identify periods of higher or lower revenue.
-
-### Customer Type Analysis
-
-Customers were categorized as **New** or **Repeat** to analyze customer inflow and retention patterns.
-
-### Pareto Analysis
-
-Pareto analysis was applied to identify the small number of services contributing to the majority of business revenue.
-
-### Revenue Loss Estimation
-
-Revenue loss due to bargaining was estimated by comparing the expected service price with the actual price paid by customers.
-
----
-
-## Key Insights
-
-The analysis revealed several important findings:
-
-* A small number of services generated a large portion of total business revenue.
-* The business depended heavily on repeat customers rather than attracting new customers.
-* Promotional activities previously helped bring in new customers, but the lack of marketing reduced customer inflow.
-* Customer bargaining resulted in measurable revenue loss across several services.
-
-These insights highlight the key operational challenges affecting business profitability.
-
----
-
-## Business Recommendations
-
-Based on the analysis, the following recommendations were proposed:
-
-1. Introduce **minimum fixed pricing** for high-demand services to reduce revenue loss from bargaining.
-
-2. Restart **promotional and marketing activities** to increase new customer inflow.
-
-3. Focus business efforts on **top revenue-generating services** identified through analysis.
-
-4. Develop strategies to **maintain repeat customers while also attracting new customers**.
-
----
-
-## Project Deliverables
-
-This repository includes the following files:
-
-* Excel analysis workbook
-* Sample dataset used for demonstration
-* Data visualizations showing key business trends
-
----
-
-## Skills Demonstrated
-
-This project demonstrates the following data analysis skills:
-
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Business Data Interpretation
-* Descriptive Statistics
-* Pareto Analysis
-* Data Visualization
-
----
-
-## Conclusion
-
-This project shows how data analysis can be applied to understand real-world business problems and support better decision-making. The insights generated from this analysis can help the business improve profitability, attract new customers, and reduce revenue losses.
