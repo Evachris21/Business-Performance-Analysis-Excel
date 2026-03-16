@@ -43,6 +43,5 @@ Based on the data, I proposed:
 3. **Referral Program:** Leverage the strong "Repeat Customer" base to bring in new clients through a loyalty-based discount.
 
 ---
-**Author:** Evangeline Christina  
-**Academic Background:** IIT Madras (Diploma in Data Science)  
+**Author:** Evangeline Christina    
 
