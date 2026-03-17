@@ -1,6 +1,15 @@
 # Business Performance Analysis: Beauty & Tailoring Sector
 **Optimizing Profitability and Customer Retention through Data-Driven Insights**
 
+## Project Workflow
+
+1. Data Collection from business records (July 2024 – June 2025)
+2. Data Cleaning and preprocessing using Excel
+3. Feature Engineering (Pricing Behavior, Revenue Loss)
+4. Exploratory Data Analysis (EDA)
+5. Business Analysis (ABC Analysis, Customer Segmentation)
+6. Insights and Recommendations
+
 ##  Project Overview
 This project involves a comprehensive analysis of a women-led service business providing beauty and tailoring services. Using 12 months of transactional data, I identified key operational inefficiencies, including revenue leakage due to unstandardized bargaining and stagnation in new customer acquisition.
 
@@ -10,8 +19,9 @@ This project involves a comprehensive analysis of a women-led service business p
 - Analyze customer behavior (New vs. Repeat) to improve retention strategies.
 
 ##  Tech Stack & Skills
-- **Tool:** Microsoft Excel (Advanced)
-- **Techniques:** Data Cleaning, VLOOKUP/XLOOKUP, Descriptive Statistics, ABC Analysis (80/20 Rule), Data Visualization.
+- Tools: Microsoft Excel
+- Functions: VLOOKUP, XLOOKUP, Pivot Tables
+- Techniques: Data Cleaning, Descriptive Statistics, ABC Analysis, Data Visualization
 
 ##  Dataset Breakdown
 The analysis was performed on four key data stages (available in this repo):
@@ -45,5 +55,8 @@ Based on the data, I proposed:
 3. **Referral Program:** Leverage the strong "Repeat Customer" base to bring in new clients through a loyalty-based discount.
 
 ---
+This project uses a sample dataset derived from a real business.
+The complete dataset is not publicly shared to maintain confidentiality.
+
 **Author:** Evangeline Christina    
 
