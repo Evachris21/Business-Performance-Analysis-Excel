@@ -20,6 +20,8 @@ The analysis was performed on four key data stages (available in this repo):
 3. **Cleaned Data:** Transformed data with calculated columns for 'Pricing Behavior' and 'Revenue Loss'.
 4. **Business Statistics:** Final summary of KPIs and service-wise segmentation.
 
+Note: The workbook contains sample raw data, cleaned dataset, and analysis dashboard in separate sheets for demonstration purposes.
+
 ##  Key Findings & Insights
 
 ### 1. Revenue Leakage (The Bargaining Problem)
